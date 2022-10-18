@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\helloController;
+use App\Http\Controllers\sumController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +18,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/huhu', function () {
+    return view('huhu');
+}) ->name("huhu");
+Route::get('/hehe', [helloController::class, 'getHehe'])->name("hehe");
+Route::get('calcSum', function(){
+    return view('sum');
+});
+Route::post('calcSum', [sumController::class, 'calculation']);
