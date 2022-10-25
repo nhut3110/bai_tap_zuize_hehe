@@ -60,7 +60,7 @@
 								<div class="col-sm-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -70,7 +70,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -80,7 +80,7 @@
 										<div class="ribbon-wrapper"><div class="ribbon sale">Sale</div></div>
 
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -91,7 +91,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -99,7 +99,7 @@
 								<div class="col-sm-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -109,7 +109,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -117,7 +117,7 @@
 								<div class="col-sm-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -127,7 +127,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -147,7 +147,7 @@
 								<div class="col-sm-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -157,7 +157,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -167,7 +167,7 @@
 										<div class="ribbon-wrapper"><div class="ribbon sale">Sale</div></div>
 
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -178,7 +178,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -186,7 +186,7 @@
 								<div class="col-sm-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -196,7 +196,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -204,7 +204,7 @@
 								<div class="col-sm-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -214,7 +214,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -225,7 +225,7 @@
 								<div class="col-sm-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -235,7 +235,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -245,7 +245,7 @@
 										<div class="ribbon-wrapper"><div class="ribbon sale">Sale</div></div>
 
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/2.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -256,7 +256,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -264,7 +264,7 @@
 								<div class="col-sm-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -274,7 +274,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -282,7 +282,7 @@
 								<div class="col-sm-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="product.html"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/assets/dest/images/products/3.jpg" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">Sample Woman Top</p>
@@ -292,7 +292,7 @@
 										</div>
 										<div class="single-item-caption">
 											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
