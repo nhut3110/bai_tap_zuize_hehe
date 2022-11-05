@@ -58,6 +58,7 @@
 								</div>
                                 @endforeach
 							</div>
+                            <div class="row">{{$new_product->links()}}</div>
 						</div> <!-- .beta-products-list -->
 
 						<div class="space50">&nbsp;</div>
@@ -65,19 +66,20 @@
 						<div class="beta-products-list">
 							<h4>Top Products</h4>
 							<div class="beta-products-details">
-								<p class="pull-left">438 styles found</p>
+								<p class="pull-left">{{count($top_product)}} new products found</p>
 								<div class="clearfix"></div>
 							</div>
 							<div class="row">
-								<div class="col-sm-3">
+                                @foreach ($top_product as $tp)
+                                    <div class="col-sm-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="/product_detail"><img src="source/assets/dest/images/products/1.jpg" alt=""></a>
+											<a href="/product_detail"><img src="source/image/product/{{$tp->image}}" alt=""></a>
 										</div>
 										<div class="single-item-body">
-											<p class="single-item-title">Sample Woman Top</p>
+											<p class="single-item-title">{{$tp->name}}</p>
 											<p class="single-item-price">
-												<span>$34.55</span>
+												<span>{{$tp->unit_price}} VND</span>
 											</p>
 										</div>
 										<div class="single-item-caption">
@@ -87,7 +89,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-3">
+                                @endforeach
+
+								{{-- <div class="col-sm-3">
 									<div class="single-item">
 										<div class="ribbon-wrapper"><div class="ribbon sale">Sale</div></div>
 
@@ -222,7 +226,9 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> --}}
+                        </div>
+                        <div class="row">{{$top_product->links()}}</div>
 						</div> <!-- .beta-products-list -->
 					</div>
 				</div> <!-- end section with sidebar and main content -->

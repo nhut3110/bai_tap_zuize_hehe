@@ -20,7 +20,7 @@
 		<div class="header-body">
 			<div class="container beta-relative">
 				<div class="pull-left">
-					<a href="/" id="logo"><img src="source/assets/dest/images/logo-cake.png" width="200px" alt=""></a>
+					<a href="/" id="logo"><img src="{{asset('source/assets/dest/images/logo-cake.png')}}" width="200px" alt=""></a>
 				</div>
 				<div class="pull-right beta-components space-left ov">
 					<div class="space10">&nbsp;</div>
@@ -37,7 +37,7 @@
 							<div class="beta-dropdown cart-body">
 								<div class="cart-item">
 									<div class="media">
-										<a class="pull-left" href="#"><img src="source/assets/dest/images/products/cart/1.png" alt=""></a>
+										<a class="pull-left" href="#"><img src="{{asset('source/assets/dest/images/products/cart/1.png')}}" alt=""></a>
 										<div class="media-body">
 											<span class="cart-item-title">Sample Woman Top</span>
 											<span class="cart-item-options">Size: XS; Colar: Navy</span>
@@ -48,7 +48,7 @@
 
 								<div class="cart-item">
 									<div class="media">
-										<a class="pull-left" href="#"><img src="source/assets/dest/images/products/cart/2.png" alt=""></a>
+										<a class="pull-left" href="#"><img src="{{asset('source/assets/dest/images/products/cart/2.png')}}" alt=""></a>
 										<div class="media-body">
 											<span class="cart-item-title">Sample Woman Top</span>
 											<span class="cart-item-options">Size: XS; Colar: Navy</span>
@@ -59,7 +59,7 @@
 
 								<div class="cart-item">
 									<div class="media">
-										<a class="pull-left" href="#"><img src="source/assets/dest/images/products/cart/3.png" alt=""></a>
+										<a class="pull-left" href="#"><img src="{{asset('source/assets/dest/images/products/cart/3.png')}}" alt=""></a>
 										<div class="media-body">
 											<span class="cart-item-title">Sample Woman Top</span>
 											<span class="cart-item-options">Size: XS; Colar: Navy</span>
@@ -93,9 +93,9 @@
 						<li><a href="/">Trang chủ</a></li>
 						<li><a href="#">Sản phẩm</a>
 							<ul class="sub-menu">
-								<li><a href="/products">Sản phẩm 1</a></li>
-								<li><a href="/products">Sản phẩm 2</a></li>
-								<li><a href="/products">Sản phẩm 4</a></li>
+                                @foreach ($product_type as $pt)
+                                    <li><a href="/type/{{$pt->id}}">{{$pt->name}}</a></li>
+                                @endforeach
 							</ul>
 						</li>
 						<li><a href="/about">Giới thiệu</a></li>

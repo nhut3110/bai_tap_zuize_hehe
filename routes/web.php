@@ -40,7 +40,7 @@ use App\Http\Controllers\PageController;
 // Route::post('/Signup', [SignupController::class, 'process']);
 
 Route::get('/', [PageController::class, 'getIndex']);
-Route::get('/products', [PageController::class, 'getProductType']);
-Route::get('/product_detail', [PageController::class, 'getProductDetail']);
+Route::get('/type/{id}', [PageController::class, 'getProductType']);
+Route::get('/detail/{id}', [PageController::class, 'getProductDetail']);
 Route::get('/contact', [PageController::class, 'getContact']);
 Route::get('/about', [PageController::class, 'getAbout']);
