@@ -28,7 +28,7 @@
 			<div class="main-content">
 				<div class="space60">&nbsp;</div>
 				<div class="row">
-					<div class="col-sm-12">
+					<div class="col-sm-12 d-flex">
 						<div class="beta-products-list">
 							<h4>New Products</h4>
 							<div class="beta-products-details">
@@ -41,7 +41,7 @@
                                 <div class="col-sm-3">
 									<div class="single-item">
 										<div class="single-item-header">
-											<a href="/product_detail"><img src="source/image/product/{{$new->image}}" alt=""></a>
+											<a href="/detail/{{$new->id}}"><img width="200" height="200" src="source/image/product/{{$new->image}}" alt=""></a>
 										</div>
 										<div class="single-item-body">
 											<p class="single-item-title">{{$new->name}}</p>
@@ -50,8 +50,8 @@
 											</p>
 										</div>
 										<div class="single-item-caption">
-											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="add-to-cart pull-left" href="{{route('themgiohang',$new->id)}}"><i class="fa fa-shopping-cart"></i></a>
+											<a class="beta-btn primary" href="/detail/{{$new->id}}">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>
@@ -83,8 +83,8 @@
 											</p>
 										</div>
 										<div class="single-item-caption">
-											<a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-											<a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
+											<a class="add-to-cart pull-left" href="{{route('themgiohang',$tp->id)}}"><i class="fa fa-shopping-cart"></i></a>
+											<a class="beta-btn primary" href="/detail/{{$new->id}}">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
 										</div>
 									</div>

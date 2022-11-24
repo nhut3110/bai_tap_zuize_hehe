@@ -3,11 +3,11 @@
 <div class="inner-header">
 		<div class="container">
 			<div class="pull-left">
-				<h6 class="inner-title">Product</h6>
+				<h6 class="inner-title">{{$product->name}}</h6>
 			</div>
 			<div class="pull-right">
 				<div class="beta-breadcrumb font-large">
-					<a href="index.html">Home</a> / <span>Product</span>
+					<a href="/">Home</a> / <span>Product</span>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -21,13 +21,13 @@
 
 					<div class="row">
 						<div class="col-sm-4">
-							<img src="source/assets/dest/images/products/6.jpg" alt="">
+							<img src="/source/image/product/{{$product->image}}" alt="">
 						</div>
 						<div class="col-sm-8">
 							<div class="single-item-body">
-								<p class="single-item-title">Sample Woman Top</p>
+								<p class="single-item-title">{{$product->name}}</p>
 								<p class="single-item-price">
-									<span>$34.55</span>
+									<span>{{$product->unit_price}}</span>
 								</p>
 							</div>
 
@@ -35,7 +35,7 @@
 							<div class="space20">&nbsp;</div>
 
 							<div class="single-item-desc">
-								<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo ms id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe.</p>
+								<p>{{$product->description}}</p>
 							</div>
 							<div class="space20">&nbsp;</div>
 
@@ -82,34 +82,61 @@
 							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
 							<p>Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequaturuis autem vel eum iure reprehenderit qui in ea voluptate velit es quam nihil molestiae consequr, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? </p>
 						</div>
-						<div class="panel" id="tab-reviews">
-							<p>No Reviews</p>
+						<div class="panel" id="tab-comment">
+							<div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <form method="post" action="/comment/{{$product->id}}">
+                                                @csrf
+                                                <div class="form-group">
+                                                    <textarea class="form-control" name="comment" required></textarea>
+                                                </div>
+                                                <button type="submit" class="beta-btn primary">Bình luận</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 						</div>
+
+                        @if (isset($comments))
+                        @foreach ($comments as $cm)
+                        <p class="border-bottom">
+                            <p><b class="pull-left">{{$cm->username}}</b></p><br/>
+                            <p>{{$cm->comment}}</p>
+                        </p>
+                        @endforeach
+                        <p>khong co binh luan</p>
+                        @endif
+
 					</div>
 					<div class="space50">&nbsp;</div>
 					<div class="beta-products-list">
 						<h4>Related Products</h4>
 
 						<div class="row">
-							<div class="col-sm-4">
+                            @foreach ($related_product as $rp)
+                            <div class="col-sm-4">
 								<div class="single-item">
 									<div class="single-item-header">
-										<a href="product.html"><img src="source/assets/dest/images/products/4.jpg" alt=""></a>
+										<a href="/detail/{{$rp->id}}"><img src="source/assets/dest/images/products/{{$rp->image}}" alt=""></a>
 									</div>
 									<div class="single-item-body">
-										<p class="single-item-title">Sample Woman Top</p>
+										<p class="single-item-title">{{$rp->name}}</p>
 										<p class="single-item-price">
-											<span>$34.55</span>
+											<span>{{$rp->unit_price}}</span>
 										</p>
 									</div>
 									<div class="single-item-caption">
 										<a class="add-to-cart pull-left" href="product.html"><i class="fa fa-shopping-cart"></i></a>
-										<a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
+										<a class="beta-btn primary" href="/detail/{{$rp->id}}">Details <i class="fa fa-chevron-right"></i></a>
 										<div class="clearfix"></div>
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-4">
+                            @endforeach
+							{{-- <div class="col-sm-4">
 								<div class="single-item">
 									<div class="single-item-header">
 										<a href="product.html"><img src="source/assets/dest/images/products/5.jpg" alt=""></a>
@@ -147,7 +174,7 @@
 										<div class="clearfix"></div>
 									</div>
 								</div>
-							</div>
+							</div> --}}
 						</div>
 					</div> <!-- .beta-products-list -->
 				</div>
